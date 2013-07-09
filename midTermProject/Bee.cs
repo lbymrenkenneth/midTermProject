@@ -8,5 +8,15 @@ namespace midTermProject
 {
     class Bee
     {
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        public Bee(string name)
+        {
+            Name = name;
+        }
     }
 }
